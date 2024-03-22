@@ -1,1 +1,0 @@
-# voltaic-startup-lp

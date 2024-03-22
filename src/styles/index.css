@@ -1,0 +1,195 @@
+.section-container {
+  width: 100vw;
+
+  display: flex;
+  flex-flow: column;
+  gap: 90px;
+
+  padding: 44px 90px;
+
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.section-container .header-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-container .header-container ul {
+  display: flex;
+  flex-flow: row;
+  gap: 24px;
+}
+
+.section-container .header-container a {
+  font-family: "Lexend", sans-serif;
+  color: #ffffff;
+}
+
+button {
+  padding: 12px 32px;
+
+  font-family: "Lexend", sans-serif;
+  font-weight: 500;
+
+  background-color: #ffffff;
+  color: #000000;
+
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+.content-introduction {
+  display: flex;
+  flex-flow: column;
+  gap: 90px;
+}
+
+.content-introduction .header-introduction {
+  display: flex;
+  align-items: center;
+}
+
+.content-introduction .header-introduction-section {
+  width: 100%;
+
+  display: flex;
+  flex-flow: column;
+  gap: 14px;
+}
+
+.content-introduction .header-introduction .header-introduction-section h1 {
+  font-family: "Lexend", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+.partners-photos-container {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 24px;
+}
+
+.report {
+  display: flex;
+  flex-flow: column;
+  gap: 24px;
+
+  padding: 32px 0px;
+
+  border-top: 1px solid #3f3f46;
+}
+
+.report .report-title {
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.report span {
+  color: #51bbaa;
+
+  font-family: Merriweather;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.report p {
+  color: #94a3b8;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.steps {
+  width: 614px;
+}
+.column-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.column-title {
+  color: #fff;
+  font-family: Lexend;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.column-link {
+  color: #94a3b8;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.step {
+  display: flex;
+  padding: 32px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-top: 1px solid #3f3f46;
+}
+
+.step p {
+  color: #94a3b8;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+.content-introduction .header-introduction p {
+  width: 100%;
+  font-family: "Lexend", serif;
+  font-weight: 500;
+  font-style: italic;
+  color: #94a3b8;
+
+  font-size: 24px;
+}
+
+.content-introduction .header-introduction-section span {
+  font-size: 24px;
+  color: #51bbaa;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.content-introduction .image-container img {
+  filter: drop-shadow(0px -156px 250px rgba(81, 187, 170, 0.43));
+}
+
+.content-introduction .header-introduction-section h1 {
+  font-family: "Lexend", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}

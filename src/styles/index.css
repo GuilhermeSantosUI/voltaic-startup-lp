@@ -1,11 +1,7 @@
 .section-container {
-  width: 100vw;
-
   display: flex;
   flex-flow: column;
-
   padding: 44px 90px;
-
   background-color: #000000;
   color: #ffffff;
 }
@@ -30,13 +26,10 @@
 
 button {
   padding: 12px 32px;
-
   font-family: "Lexend", sans-serif;
   font-weight: 500;
-
   background-color: #ffffff;
   color: #000000;
-
   border: none;
   border-radius: 50px;
   font-size: 16px;
@@ -55,7 +48,6 @@ button {
 
 .content-introduction .header-introduction-section {
   width: 100%;
-
   display: flex;
   flex-flow: column;
   gap: 14px;
@@ -70,7 +62,6 @@ button {
 
 .partners-photos-container {
   width: 100%;
-
   display: flex;
   align-items: center;
   justify-content: end;
@@ -81,15 +72,12 @@ button {
   display: flex;
   flex-flow: column;
   gap: 24px;
-
   padding: 32px 0px;
-
   border-top: 1px solid #3f3f46;
 }
 
 .report .report-title {
   color: #fff;
-
   font-family: Inter;
   font-size: 24px;
   font-style: italic;
@@ -99,7 +87,6 @@ button {
 
 .report span {
   color: #51bbaa;
-
   font-family: Merriweather;
   font-size: 16px;
   font-style: italic;
@@ -119,6 +106,7 @@ button {
 .steps {
   width: 614px;
 }
+
 .column-content {
   display: flex;
   flex-direction: column;
@@ -146,6 +134,7 @@ button {
   line-height: normal;
   text-decoration-line: underline;
 }
+
 .step {
   display: flex;
   padding: 32px 0px;
@@ -165,13 +154,13 @@ button {
   font-weight: 400;
   line-height: normal;
 }
+
 .content-introduction .header-introduction p {
   width: 100%;
   font-family: "Lexend", serif;
   font-weight: 500;
   font-style: italic;
   color: #94a3b8;
-
   font-size: 24px;
 }
 

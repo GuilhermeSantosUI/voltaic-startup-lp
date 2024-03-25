@@ -1,3 +1,4 @@
+/* General Styles */
 .section-container {
   display: flex;
   flex-flow: column;
@@ -6,6 +7,18 @@
   color: #ffffff;
 }
 
+.button {
+  padding: 12px 32px;
+  font-family: Lexend, sans-serif;
+  font-weight: 500;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+/* Header Styles */
 .section-container .header-container {
   display: flex;
   flex-flow: row;
@@ -20,30 +33,44 @@
 }
 
 .section-container .header-container a {
-  font-family: "Lexend", sans-serif;
+  font-family: Lexend, sans-serif;
   color: #ffffff;
 }
 
-button {
-  padding: 12px 32px;
-  font-family: "Lexend", sans-serif;
-  font-weight: 500;
-  background-color: #ffffff;
-  color: #000000;
-  border: none;
-  border-radius: 50px;
-  font-size: 16px;
-}
-
+/* Content Introduction Styles */
 .content-introduction {
   display: flex;
   flex-flow: column;
   gap: 90px;
+  padding: 64px 0;
+}
+
+.content-introduction.gap {
+  gap: 44px;
+}
+
+.content-introduction.methods {
+  display: flex;
+  align-items: start;
+  flex-flow: row;
+  gap: 0px;
 }
 
 .content-introduction .header-introduction {
   display: flex;
   align-items: center;
+}
+
+.content-introduction .header-introduction.end {
+  align-items: end;
+}
+
+.content-introduction .header-introduction.methods {
+  align-items: end;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 64px;
 }
 
 .content-introduction .header-introduction-section {
@@ -53,19 +80,43 @@ button {
   gap: 14px;
 }
 
+.content-introduction .header-introduction-section .title-span {
+  font-size: 40px;
+}
+
 .content-introduction .header-introduction .header-introduction-section h1 {
-  font-family: "Lexend", sans-serif;
+  font-family: Lexend, sans-serif;
   font-size: 40px;
   font-weight: 500;
   line-height: 42px;
 }
 
-.partners-photos-container {
+.content-introduction .header-introduction p {
   width: 100%;
+  font-family: Lexend, serif;
+  font-weight: 500;
+  font-style: italic;
+  color: #94a3b8;
+  font-size: 24px;
+}
+
+.content-introduction .header-introduction-section span {
+  font-size: 24px;
+  color: #51bbaa;
+  font-family: Merriweather, serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.content-introduction .image-container img {
+  filter: drop-shadow(0px -156px 250px rgba(81, 187, 170, 0.43));
+}
+
+/* Grid Reports Styles */
+.grid-reports {
   display: flex;
-  align-items: center;
-  justify-content: end;
-  gap: 24px;
+  align-items: start;
+  gap: 64px;
 }
 
 .report {
@@ -103,10 +154,36 @@ button {
   line-height: normal;
 }
 
+/* Steps Styles */
+.steps-container {
+  width: 100%;
+}
+
 .steps {
   width: 614px;
 }
 
+.step {
+  display: flex;
+  padding: 32px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-top: 1px solid #3f3f46;
+}
+
+.step p {
+  color: #94a3b8;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Column Content Styles */
 .column-content {
   display: flex;
   flex-direction: column;
@@ -135,49 +212,33 @@ button {
   text-decoration-line: underline;
 }
 
-.step {
+/* Partners Photos Styles */
+.partners-photos-container {
+  width: 100%;
   display: flex;
-  padding: 32px 0px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 10px;
-  align-self: stretch;
-  border-top: 1px solid #3f3f46;
+  align-items: center;
+  justify-content: end;
+  gap: 24px;
 }
 
-.step p {
+/* Footer Styles */
+.footer-container .footer-content {
+  display: flex;
+  align-items: start;
+  padding-bottom: 12rem;
+}
+
+.footer-container .column-footer-container {
+  width: 100%;
+  display: flex;
+  gap: 24px;
+}
+
+.footer-bottom {
   color: #94a3b8;
   font-family: Inter;
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
   line-height: normal;
-}
-
-.content-introduction .header-introduction p {
-  width: 100%;
-  font-family: "Lexend", serif;
-  font-weight: 500;
-  font-style: italic;
-  color: #94a3b8;
-  font-size: 24px;
-}
-
-.content-introduction .header-introduction-section span {
-  font-size: 24px;
-  color: #51bbaa;
-  font-family: "Merriweather", serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
-.content-introduction .image-container img {
-  filter: drop-shadow(0px -156px 250px rgba(81, 187, 170, 0.43));
-}
-
-.content-introduction .header-introduction-section h1 {
-  font-family: "Lexend", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
 }

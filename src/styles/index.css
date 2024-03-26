@@ -100,6 +100,22 @@
   font-size: 24px;
 }
 
+.image-content {
+  width: 100%;
+}
+
+.brands-container {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brands-container img {
+  margin: 0 auto;
+}
+
 .content-introduction .header-introduction-section span {
   font-size: 24px;
   color: #51bbaa;
